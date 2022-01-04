@@ -30,7 +30,7 @@ const userRouter = (app) => {
             users.push(req.body);
             saveUser(users);
 
-            res.send(201).send('OK');
+            res.status(201).send('OK');
         })
 }
 

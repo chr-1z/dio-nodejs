@@ -1,9 +1,13 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 
 const userRoute = require('./routes/userRoute');
 
-const app = express();
 const port = 3000;
+const app = express();
+
+app.use(bodyParser.urlencoded({ extended: false }));
+
 
 userRoute(app);
 
