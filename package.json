@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "name": "dio-nodejs",
+  "description": "### O que é o Express?  - Framework web minimalista e rápido para Node.js - Fornece uma estrutura e conjunto de recursos robustos para aplicações Web e Mobile. - Dispõe de métodos utilitários HTTP e middlewares para criar uma API rápida e segura.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chr-1z/dio-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chr-1z/dio-nodejs/issues"
+  },
+  "homepage": "https://github.com/chr-1z/dio-nodejs#readme"
+}
