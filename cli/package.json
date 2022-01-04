@@ -1,15 +1,18 @@
 {
-    "name" : "search-files-cli",
+    "name": "search-files-cli",
     "version": "1.0.0",
     "description": "Exemplo de CLI para procurar arquivos em uma pasta",
     "preferGlobal": true,
     "bin": {
-        "search-files" : "./bin/search-files-cli"
+        "search-files": "./bin/search-files-cli"
     },
     "files": [
         "./bin"
     ],
     "keywords": [],
     "author": "Christian Oliveira Leichtweis",
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "lnk": "^1.1.0"
+    }
 }
